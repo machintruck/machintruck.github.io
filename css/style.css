@@ -828,6 +828,21 @@ h1, h2, h3, h4, h5,
       background: #DD4A48;
       color: #fff; }
 
+.project-pagination {
+  margin-right: 50px;
+  margin-left: 50px; }
+  /*.project-pagination span, .project-pagination a {
+    display: inline-block;
+    /*width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;*/ }
+  /*.project-pagination a {
+    border-radius: 50%; }*/
+/*    .project-pagination a:hover {
+      background: #DD4A48;
+      color: #fff; }
+*/
 .site-section-hero {
   position: relative;
   margin-top: 3px; }
@@ -849,6 +864,29 @@ h1, h2, h3, h4, h5,
     font-size: 2.5rem; }
     @media (min-width: 768px) {
       .site-section-hero .heading {
+        font-size: 3rem; } }
+
+.site-project-hero {
+  position: relative;
+  margin-top: 3px; }
+  .site-project-hero:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1; }
+  .site-project-hero, .site-project-hero .row {
+    height: 40vh;
+    min-height: 200px;
+    z-index: 2;
+    position: relative; }
+  .site-project-hero .heading {
+    font-size: 2.5rem; }
+    @media (min-width: 768px) {
+      .site-project-hero .heading {
         font-size: 3rem; } }
 
 .bg-image {
