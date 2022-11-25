@@ -880,7 +880,7 @@ h1, h2, h3, h4, h5,
     z-index: 1; }
   .site-project-hero, .site-project-hero .row {
     height: 40vh;
-    min-height: 200px;
+    min-height: 400px;
     z-index: 2;
     position: relative; }
   .site-project-hero .heading {
